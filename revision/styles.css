@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.boite-color {
+    height: 200px;
+    width: 200px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+#redColor, #greenColor, #blueColor {
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.boite {
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    width: 75px;
+    margin: 0;
+}
+
+input {
+    margin-right: 10px;
+}

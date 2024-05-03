@@ -8,6 +8,44 @@
     <script src="script.js" defer></script>
 </head>
 <body>
+
+    <h1>Révision</h1>
+
+    <header>
+        <form id="form">
+            Texte : <input type="text" id="text"> </br>
+            <input type="range" id="range" min="10" max="100" value="20">
+            <input type="text" id="rangeValue" readonly></br>
+            <button id="clickMe">Cliquer</button>
+
+            <hr>
+
+            <div class="boite">
+                <p>Rouge :</p><input type="range" id="red" min="0" max="255" value="0">
+                <input type="text" id="redValue">
+                <div id="redColor" class="boite-color"></div></br>
+            </div>
+
+            <div class="boite">
+                <p>Vert :</p><input type="range" id="green" min="0" max="255" value="0">
+                <input type="text" id="greenValue">
+                <div id="greenColor" class="boite-color"></div></br>
+            </div>
+
+            <div class="boite">
+                <p>Bleu :</p><input type="range" id="blue" min="0" max="255" value="0">
+                <input type="text" id="blueValue">
+                <div id="blueColor" class="boite-color"></div></br>
+            </div>
+
+            <div id="color" class="boite-color"></div>
+
+        </form>
+    </header>
+
+    <main id="main">
+    
+    </main>
     
 </body>
 </html>
